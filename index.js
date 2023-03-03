@@ -1,6 +1,6 @@
 'use strict';
 const decompress = require('decompress');
-const download = require('download');
+const download = require('@hkjeffchan/dl');
 const execa = require('execa');
 const pMapSeries = require('p-map-series');
 const tempfile = require('tempfile');
